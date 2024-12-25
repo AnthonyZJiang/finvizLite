@@ -1,7 +1,6 @@
 from enum import Enum
 
 class FundamentalKey(Enum):
-    country = 'Country'
     company = 'Company'
     sector = 'Sector'
     industry = 'Industry'
