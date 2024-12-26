@@ -1,7 +1,6 @@
 from enum import Enum
 
 class FundamentalKey(Enum):
-    country = 'Country'
     company = 'Company'
     sector = 'Sector'
     industry = 'Industry'
@@ -37,7 +36,6 @@ class FundamentalKey(Enum):
     eps_next_y = 'EPS next Y'
     eps_next_q = 'EPS next Q'
     eps_this_y = 'EPS this Y'
-    eps_next_y = 'EPS next Y'
     eps_next_5y = 'EPS next 5Y'
     eps_past_5y = 'EPS past 5Y'
     sales_past_5y = 'Sales past 5Y'
